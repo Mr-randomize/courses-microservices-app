@@ -35,7 +35,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    @Transactional
+    @Transactional //Transactional is required when executing an update/delete query.
     public void changeRole(Role newRole, String username) {
         userRepository.updateUserRole(username, newRole);
     }

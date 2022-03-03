@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
         <module name="purchase-microservice" />
+        <module name="eureka-microservice" />
         <module name="course-microservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="11" />
       <module name="course-microservice" target="11" />
+      <module name="eureka-microservice" target="11" />
       <module name="purchase-microservice" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -22,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
       <module name="course-microservice" options="-parameters" />
+      <module name="eureka-microservice" options="-parameters" />
       <module name="purchase-microservice" options="-parameters" />
     </option>
   </component>

@@ -2,7 +2,7 @@ package com.iviberberi.apigateway.security;
 
 import com.iviberberi.apigateway.model.User;
 import com.iviberberi.apigateway.service.UserService;
-import com.iviberberi.apigateway.util.SecurityUtils;
+import com.iviberberi.apigateway.utils.SecurityUtils;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
