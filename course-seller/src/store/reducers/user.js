@@ -10,7 +10,7 @@ const userReducer = (state = {}, action) => {
             return null;
         default:
             return JSON.parse(localStorage.getItem('currentUser'));
-    }
-}
+    };
+};
 
 export default userReducer;

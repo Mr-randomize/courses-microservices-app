@@ -5,12 +5,12 @@ const BASE_URL = BASE_API_URL + '/api/authentication';
 
 class AuthenticationService {
 
-    login(user){
-        return axios.post(BASE_URL + '/sign-in',user)
+    login(user) {
+        return axios.post(BASE_URL + '/sign-in', user);
     }
 
-     register(user){
-        return axios.post(BASE_URL + '/sign-up',user)
+    register(user) {
+        return axios.post(BASE_URL + '/sign-up', user);
     }
 }
 
